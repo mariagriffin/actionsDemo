@@ -15,7 +15,6 @@ public class App {
 	{
 		System.out.println("Hello World");
 		System.out.println("adding to kick of a workflow today");
-		System.out.println("making a code change!");
 		
 	}
 
