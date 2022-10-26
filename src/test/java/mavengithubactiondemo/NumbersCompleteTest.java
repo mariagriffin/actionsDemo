@@ -14,7 +14,7 @@ public class NumbersCompleteTest extends TestCase{
 	
 		Object o = NumbersComplete.sum(num1,num2);
 		assert(o instanceof Integer);
-		assert(o.equals(19));
+		assert(o.equals(9));
 	}
 	
 	//test subtract method
