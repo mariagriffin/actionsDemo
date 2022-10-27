@@ -64,9 +64,10 @@ jobs:
       - name: generate report codecov
         run: mvn cobertura:cobertura
       - name:  Upload coverage reports to Codecov with GitHub Action
-        if: success()
-        run: |
-          curl -s https://codecov.io/bash | bash
-        shell: bash
+        uses: codecov/codecov-action@v3
+        #if: success()
+        #run: |
+        #  curl -s https://codecov.io/bash | bash
+        #shell: bash
         
         
