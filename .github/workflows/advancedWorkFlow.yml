@@ -64,10 +64,9 @@ jobs:
       - name: generate report codecov
         run: mvn cobertura:cobertura
       - name:  Upload coverage reports to Codecov with GitHub Action
-        uses: mariagriffin/actionsDemo@v3
-        with:
-         gcov: true
-         files: ./coverage1.xml
-         
+        if: success()
+        run: |
+          curl -s https://codecov.io/bash | bash
+        shell: bash
         
         
