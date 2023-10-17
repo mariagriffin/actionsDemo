@@ -40,7 +40,7 @@
         </execution>
     </executions>
  </plugin>
-			
+</plugins>			
 </build>
-</plugins>
+
 </project>
