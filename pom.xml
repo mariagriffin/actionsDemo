@@ -5,9 +5,9 @@
   <version>0.0.1-SNAPSHOT</version>
   
   <properties>
-		<maven.compiler.source>1.8</maven.compiler.source>
-		<maven.compiler.target>1.8</maven.compiler.target>
-	</properties>
+	<maven.compiler.release>21</maven.compiler.release>	
+</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -16,7 +16,8 @@
 		</dependency>
 	</dependencies>
 
-<build>
+
+	<build>
 	<plugins>
 	<plugin>
   	<groupId>org.jacoco</groupId>
