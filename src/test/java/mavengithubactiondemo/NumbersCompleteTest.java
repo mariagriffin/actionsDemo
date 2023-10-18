@@ -8,6 +8,7 @@ public class NumbersCompleteTest extends TestCase{
 	//GIVEN two numbers
 	//WHEN they are added 
 	//THEN the results should be the sum of the numbers
+	//making a new test
 	public void testAdd() {
 		int num1 = 5;
 		int num2 = 4;
