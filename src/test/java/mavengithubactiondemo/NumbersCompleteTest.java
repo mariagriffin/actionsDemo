@@ -47,6 +47,7 @@ public class NumbersCompleteTest extends TestCase{
 	//GIVEN two numbers
 	//WHEN they are compared 
 	//THEN the results should be the smallest number
+	//new test
 	public void testSmallest() {
 		int num1 = 5;
 		int num2 = 4;
