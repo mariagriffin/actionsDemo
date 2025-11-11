@@ -1,8 +1,6 @@
 package mavengithubactiondemo;
 
-import junit.framework.*;
-
-public class NumbersCompleteTest extends TestCase{
+public class NumbersCompleteTest{
 	
 	//test add method
 	//GIVEN two numbers
