@@ -1,4 +1,4 @@
-package com.example;
+package mavengithubactiondemo;
 
 //import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertFalse;
@@ -28,3 +28,4 @@ public class AppTest
         assertFalse(false);
     }
 }
+
