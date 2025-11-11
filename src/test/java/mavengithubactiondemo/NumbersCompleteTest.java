@@ -41,7 +41,7 @@ public class NumbersCompleteTest extends TestCase{
 	
 		Object o = NumbersComplete.multiply(num1,num2);
 		assert(o instanceof Integer);
-		assert(o.equals(9));
+		assert(o.equals(20));
 	}
 	
 	//test divide method
