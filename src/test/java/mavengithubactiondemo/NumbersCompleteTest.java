@@ -30,6 +30,32 @@ public class NumbersCompleteTest extends TestCase{
 		assert(o instanceof Integer);
 		assert(o.equals(1));
 	}
+
+	//test multiply method
+	//GIVEN two numbers
+	//WHEN they are multiplied 
+	//THEN the results should be the multiplication of the numbers
+	public void testMultiply() {
+		int num1 = 5;
+		int num2 = 4;
+	
+		Object o = NumbersComplete.multiply(num1,num2);
+		assert(o instanceof Integer);
+		assert(o.equals(9));
+	}
+	
+	//test divide method
+	//GIVEN two numbers
+	//WHEN they are divided 
+	//THEN the results should be the division of the numbers
+	public void testDivide() {
+		int num1 = 5;
+		int num2 = 4;
+	
+		Object o = NumbersComplete.divide(num1,num2);
+		assert(o instanceof Integer);
+		assert(o.equals(1));
+	}
 	
 	//test largest method
 	//GIVEN two numbers
