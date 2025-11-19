@@ -18,11 +18,15 @@
 </dependencies>
 	<build>
 		<plugins>
-			 <plugin>
-         			<groupId>org.apache.maven.plugins</groupId>
-         			<artifactId>maven-compiler-plugin</artifactId>
-         			<version>3.9.11</version>
-     			</plugin>
+            <!-- Compiler plugin for Java 21 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.11.0</version>
+                <configuration>
+                    <release>18</release>
+                </configuration>
+            </plugin>
 			<plugin>
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
